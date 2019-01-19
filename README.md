@@ -1,3 +1,11 @@
+# Purpose
+- [x] to solve how to detect data using `OnChanges` & `@Input`
+  - `OnChanges`: see `child-comp-one` component
+  - `@Input`: see `child-comp-two` component
+
+- [x] to figure out every time data changes, which one run first
+  - The order is: `@Input set` -> `@Input get` -> `OnChanges`
+
 # NgUnitTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
